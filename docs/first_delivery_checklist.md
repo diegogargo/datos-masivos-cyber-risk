@@ -22,9 +22,9 @@ La simulacion de clonacion sin `raw`, `interim` ni `processed` ejecuto correctam
 | Primera evidencia con tabla, grafica e interpretacion | COMPLETO | Segundo notebook y `reports/` |
 | Rutas relativas y dependencias declaradas | COMPLETO | Revision automatizada y archivos de entorno |
 | Pruebas automatizadas | COMPLETO | 3 pruebas aprobadas |
-| Repositorio local en rama `main` | PARCIAL | Git inicializado; commits bloqueados por permisos de esta sesion |
-| Repositorio remoto privado | PENDIENTE | GitHub solicita inicio de sesion |
-| Issues 1 a 8 | PENDIENTE | Plan preparado en `docs/collaboration_plan.md` |
+| Repositorio principal en rama `main` | COMPLETO | Estructura del proyecto publicada en GitHub |
+| Repositorio remoto privado | COMPLETO | Repositorio disponible para los colaboradores invitados |
+| Una issue por integrante | EN PROCESO | Issues #1, #2 y #3 asignadas al equipo |
 | Dos commits por integrante | PENDIENTE | Deben ser contribuciones reales |
 | Un pull request por integrante | PENDIENTE | Debe crearlo cada integrante |
 | Una revision ajena por integrante | PENDIENTE | Debe realizarla cada integrante |
