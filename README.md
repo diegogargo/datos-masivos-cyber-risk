@@ -7,9 +7,9 @@ Proyecto universitario de Datos Masivos para estudiar caracteristicas tecnicas y
 ## Integrantes
 
 - Diego Garcia Gomez
-- Maria José Barreda
-- Emiliano Martínez 
-- Sofia Villegas
+- Integrante 2
+- Integrante 3
+- Integrante 4
 
 Los nombres temporales se reemplazaran cuando se integre formalmente el equipo.
 

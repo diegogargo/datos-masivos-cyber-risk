@@ -1,0 +1,13 @@
+project:
+  start_date: "2025-01-01"
+  end_date: "2025-03-31"
+  timezone: "UTC"
+
+nvd:
+  results_per_page: 2000
+  timeout_seconds: 60
+  # NVD_API_KEY is optional and must be supplied as an environment variable.
+
+cisa_kev:
+  timeout_seconds: 60
+

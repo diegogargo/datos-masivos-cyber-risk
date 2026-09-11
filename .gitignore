@@ -1,0 +1,31 @@
+.venv/
+venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+.matplotlib/
+.jupyter/
+.ipython/
+.matplotlib/
+.coverage
+htmlcov/
+
+# Large or reproducible data layers
+data/raw/nvd/*
+data/raw/cisa/*
+!data/raw/nvd/.gitkeep
+!data/raw/cisa/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Local logs and temporary files
+*.log
+tmp/
+.DS_Store
+Thumbs.db
