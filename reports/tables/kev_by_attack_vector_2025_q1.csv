@@ -1,0 +1,7 @@
+attack_vector,total_cves,cves_in_kev,percent_in_kev
+PHYSICAL,134,2,1.4925
+LOCAL,2774,15,0.5407
+NETWORK,8745,41,0.4688
+MISSING,466,0,0.0
+ADJACENT_NETWORK,196,0,0.0
+ADJACENT,97,0,0.0
