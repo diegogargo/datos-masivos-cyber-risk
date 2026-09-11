@@ -1,25 +1,32 @@
-# Plan de colaboracion
+# Plan de colaboración
 
-Este archivo organiza el trabajo, pero no sustituye evidencia real en GitHub. Cada integrante debe trabajar desde su propia cuenta, rama y pull request.
+Este archivo organiza el trabajo del primer entregable. Cada integrante debe trabajar desde su propia cuenta de GitHub, utilizar una rama independiente y crear un pull request.
 
-| Issue | Responsable | Tarea | Rama sugerida |
+| Issue | Responsable | Tarea | Rama |
 |---:|---|---|---|
-| 1 | Diego | Definir alcance y arquitectura inicial | `feature/project-scope-integration` |
-| 2 | Integrante 2 | Implementar adquisicion desde NVD | `feature/nvd-ingestion` |
-| 3 | Integrante 3 | Implementar adquisicion de CISA KEV | `feature/cisa-kev-ingestion` |
-| 4 | Integrante 4 | Crear exploracion inicial | `analysis/initial-exploration` |
-| 5 | Diego | Integrar NVD y KEV y crear primera evidencia | `feature/project-scope-integration` |
-| 6 | Integrante 2 | Documentar NVD, variables y limitaciones | `feature/nvd-ingestion` |
-| 7 | Integrante 3 | Documentar CISA KEV y limitaciones | `feature/cisa-kev-ingestion` |
-| 8 | Integrante 4 | Validar reproducibilidad y diccionario | `analysis/initial-exploration` |
+| 1 | Diego García Gómez | Alcance, estructura y documentación del equipo | `feature/project-scope-integration` |
+| 2 | José Miguel | Validación de NVD, documentación y pruebas | `feature/nvd-ingestion` |
+| 3 | Santiago Nicolás | Validación de CISA KEV, análisis exploratorio y reproducibilidad | `feature/cisa-kev-ingestion` |
 
-## Evidencia individual obligatoria para el primer parcial
+## Evidencia individual
 
-Cada integrante debe acumular de forma autentica:
+Cada integrante deberá realizar:
 
 - al menos dos commits relevantes;
 - al menos un pull request propio;
-- al menos una revision de un pull request de otro integrante;
-- participacion en al menos un issue.
+- al menos una revisión de un pull request ajeno;
+- participación en su issue asignada.
 
-No se crearan identidades, aprobaciones ni revisiones ficticias.
+## Rotación de revisiones
+
+- José Miguel revisará el pull request de Diego.
+- Santiago Nicolás revisará el pull request de José Miguel.
+- Diego revisará el pull request de Santiago Nicolás.
+
+## Criterios de colaboración
+
+- Ningún integrante trabajará directamente en la rama `main`.
+- Los cambios se incorporarán mediante pull requests.
+- Cada pull request deberá estar relacionado con su issue.
+- Los resultados y pruebas deberán ser reales.
+- No se crearán identidades, commits, aprobaciones ni revisiones ficticias.
