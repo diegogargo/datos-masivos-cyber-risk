@@ -21,6 +21,10 @@ El JSON real puede incluir `cvssMetricV40`, `cvssMetricV31`, `cvssMetricV30` y `
 
 La API key es opcional y se lee desde `NVD_API_KEY`. Sin key, el script espera entre paginas para respetar el limite publico. Se manejan paginacion, timeout, errores HTTP, `Timeout`, `ConnectionError`, limites 429, reintentos y JSON invalido.
 
+### Validaciones reproducibles de NVD
+
+Las pruebas verifican la construcción determinista del intervalo de consulta y el nombre utilizado para identificar la muestra inicial. La fecha de inicio usa el comienzo del día y la fecha final incluye el cierre del día, evitando excluir registros publicados durante la última jornada del periodo.
+
 ## CISA Known Exploited Vulnerabilities (KEV)
 
 - **Origen:** feed JSON oficial: <https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json>
