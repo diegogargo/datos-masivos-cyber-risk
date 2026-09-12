@@ -33,3 +33,9 @@ Porcentajes calculados sobre las 12,412 filas reales del dataset procesado 2025-
 | `kev_extracted_at_utc` | datetime | Pipeline | Momento de extraccion KEV | UTC | 99.53% | Trazabilidad |
 | `in_kev` | integer | Derivada | Presencia en KEV: 1 si, 0 no encontrada | binaria | 0.00% | 0 no significa no explotada |
 | `days_to_kev` | float | Derivada | Dias de publicacion a alta en KEV | dias | 99.66% | Solo diferencias validas no negativas |
+
+## Validaciones específicas de CISA KEV
+
+Los identificadores provenientes del catálogo se verifican con el formato `CVE-AAAA-NNNN`, permitiendo más de cuatro dígitos en la parte numérica. También se comprueba que la muestra tenga registros y que su cantidad no supere el total observado en la descarga.
+
+La presencia en el catálogo se representa mediante `in_kev = 1`. Un valor `in_kev = 0` significa únicamente que la CVE no apareció en la versión descargada del catálogo; no demuestra ausencia de explotación.
